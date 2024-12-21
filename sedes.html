@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cielo Gourmet - Sedes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #FAF3E0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #800B00;
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+            font-weight: bold; /* Agregado para texto en negrita */
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #FAF3E0 !important;
+        }
+
+        .hero {
+            background-image: url('fonda.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #8B0000;
+        }
+        
+        .container p, label {
+            color: #333;
+        }
+
+        .table {
+            border: 2px solid #8B0000; /* Marco para la tabla */
+        }
+
+        .table th, .table td {
+            border: 1px solid #8B0000; /* Marco para las celdas */
+        }
+
+        .table th {
+            background-color: #8B0000; /* Color de fondo para el encabezado */
+            color: #ffffff; /* Color del texto del encabezado */
+            text-align: center; /* Centrar el texto */
+        }
+
+        .fila1 {
+            background-color: #fcff5f; /* Color para fila 1 */
+        }
+
+        .fila2 {
+            background-color: #b5fae3; /* Color para fila 2 */
+        }
+
+        .fila3 {
+            background-color: #ffbdff; /* Color para fila 3 */
+        }
+
+        footer {
+            background-color: #8B0000;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Cielo Gourmet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="sedes.html">Sedes</a></li>
+                <li class="nav-item"><a class="nav-link" href="comenta.html">Comenta</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h1>Nuestras Sedes</h1>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2>Encuentra una sede cerca de ti</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ciudad</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="fila1">
+                    <td>Lima</td>
+                    <td>Av. Principal 123</td>
+                    <td>555-1234</td>
+                </tr>
+                <tr class="fila2">
+                    <td>Provincia</td>
+                    <td>Jr. Central 456</td>
+                    <td>555-5678</td>
+                </tr>
+                <tr class="fila3">
+                    <td>Ciudad</td>
+                    <td>Calle Secundaria 789</td>
+                    <td>555-8901</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer class="text-center p-4">
+        <p>&copy; 2024 Cielo Gourmet. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
